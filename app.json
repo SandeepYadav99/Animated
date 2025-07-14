@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "Animated",
-    "slug": "Animated",
+    "scheme": "animated-app",
+    "slug": "animated",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,10 +21,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.sandeep10.Animated"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af2de03e-178a-43f7-8624-f40972043093"
+      }
     }
   }
 }

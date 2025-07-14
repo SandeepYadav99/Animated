@@ -1,0 +1,13 @@
+1. npm install -g expo-cli 
+2. eas login 
+3. eas build --profile development --platform android
+3. eas build --profile preview --platform android
+4. eas build => SHA1 FINGERPRINT
+5. npx expo start --dev-client
+6. npx expo prebuild
+7. --legacy-peer-deps
+8. npm info react-native-fast-image
+9. npx expo doctor or npx expo-doctor  or npx expo-doctor --verbose
+10. npx expo install --check => Verson check 
+11. npm install expo-dev-client 
+
